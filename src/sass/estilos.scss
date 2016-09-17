@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-family: 'Inconsolata', monospace;
+}
+
+h1, h2 {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+}
+
+section {
+  height: calc(100% - 50px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  .tecla {
+    background-color: #B2B2B2;
+    width: auto;
+    height: auto;
+    min-width: 88px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .igual {
+    font-size: 30px;
+    margin: 0px 15px 0px 15px;
+  }
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 -3px 5px rgba(0,0,0,0.26);
+}
+
+.perfilMM1M {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    margin: 0px 3px 0px 3px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
+  label {
+    color: #FFFFFF;
+    font-size: 15px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  i {
+    font-size: 15px;
+    margin: 0px 3px 0px 3px;
+    color: #FFFFFF;
+  }
+
+  .fa-code {
+    color: #303F9F !important;
+  }
+
+  .fa-heart-o {
+    color: #D32F2F !important;
+  }
+}
