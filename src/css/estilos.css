@@ -66,13 +66,20 @@ footer {
     font-size: 15px; }
   .perfilMM1M a {
     text-decoration: none; }
+    .perfilMM1M a p {
+      font-size: 17px; }
   .perfilMM1M i {
-    font-size: 15px;
+    font-size: 17px;
     margin: 0px 3px 0px 3px;
     color: #FFFFFF; }
   .perfilMM1M .fa-code {
-    color: #303F9F !important; }
+    color: #303F9F !important;
+    margin-bottom: 3px; }
   .perfilMM1M .fa-heart-o {
-    color: #D32F2F !important; }
+    color: #D32F2F !important;
+    margin-bottom: 2px; }
+  .perfilMM1M .fa-github {
+    color: #FFFFFF !important;
+    margin-bottom: 2px; }
 
 /*# sourceMappingURL=estilos.css.map */

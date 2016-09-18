@@ -84,19 +84,30 @@ footer {
 
   a {
     text-decoration: none;
+
+    p {
+      font-size: 17px;
+    }
   }
 
   i {
-    font-size: 15px;
+    font-size: 17px;
     margin: 0px 3px 0px 3px;
     color: #FFFFFF;
   }
 
   .fa-code {
     color: #303F9F !important;
+    margin-bottom: 3px;
   }
 
   .fa-heart-o {
     color: #D32F2F !important;
+    margin-bottom: 2px;
+  }
+
+  .fa-github {
+    color: #FFFFFF !important;
+    margin-bottom: 2px;
   }
 }
